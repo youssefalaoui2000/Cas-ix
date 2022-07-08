@@ -1,0 +1,3 @@
+[submodule "hugo-universal-theme"]
+	path = hugo-universal-theme
+	url = .\\themes\\hugo-universal-theme\\
