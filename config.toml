@@ -1,4 +1,4 @@
-baseurl = "https://www.casix.com" 
+baseurl = "https://glowing-fairy-06486d.netlify.app/" 
 title = "Universal"
 theme = "hugo-universal-theme"
 themesDir = "./themes"
