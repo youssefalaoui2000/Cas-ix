@@ -9,7 +9,8 @@ summary="En connectant votre réseau de serveurs web au point d'échange interne
 
 +++
 
-![alt text](peering.png)
+<img src="https://media.ironmountain.com/in/-/media/images/iron-mountain/services/digital-transformation/data-center/network-connectivity/network-peering-map.png?h=342&iar=0&w=640&rev=987cfb6f74ab46a283d223de75625a28&sc_lang=en-in&hash=BB57FDE6A7E805500A34021F7AC49F74">
+
 
 En connectant votre réseau de serveurs web au point d'échange internet de Casablanca vous bénéficiez non seulement d'une proximité inégalée de vos utilisateurs chez les trois opérateurs mais vous vous connectez aussi aux réseaux de distribution de contenu (CDNs) qui sont membres aussi de l'IXP.
 
