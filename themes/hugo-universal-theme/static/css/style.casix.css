@@ -10,6 +10,21 @@
     --navbar-focus: #f1d08a;
   }
   
+  img[alt=about] { width: 100%; }
+
+  /*.div2{
+    
+    background: 
+    
+  }*/
+
+  .div4{
+    color: rgb(250, 149, 16);
+    text-align: center;
+    padding: 100%;
+    background: url('../img/colocation-2.jpg') center center no-repeat;
+
+  }
   .clearfix:before,
   .clearfix:after,
   .navbar:before,

@@ -19,6 +19,28 @@ paginate = 10
 # not pluralize title pages by default
 pluralizelisttitles = false
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      linkifyProtocol = 'https'
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.parser]
+      autoHeadingID = true
+      autoHeadingIDType = 'github'
+      [markup.goldmark.parser.attribute]
+        block = false
+        title = true
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+      xhtml = false
+
 [menu]
 
 
@@ -31,290 +53,66 @@ pluralizelisttitles = false
 
 
 
-[[menu.main]]
-    name       = "Features"
-    identifier = "menu.features"
-    url        = "/img/template-easy-customize.png"
-    weight     = 3
+#list more
 
 [[menu.main]]
-    name       = "Shortcodes"
-    identifier = "section.shortcodes"
+    name       = "learn more"
+    identifier = "menu.more"
+    url        = "/img/more.jpg"
+    weight     = 5
+
+[[menu.main]]
+    name       = "Learn more"
+    identifier = "section.more"
     url        = ""
     weight     = 1
-    parent     = "menu.features"
+    parent     = "menu.more"
     post       = 1
 
 [[menu.main]]
-    name       = "Header variations"
-    identifier = "section.headervariations"
-    url        = ""
-    weight     = 2
-    parent     = "menu.features"
-    post       = 2
-
-[[menu.main]]
-    name       = "Accordions"
-    url        = ""
+    name       = "Information list"
+    url        = "/more/"
     weight     = 1
-    parent     = "section.shortcodes"
+    parent     = "section.more"
 
 [[menu.main]]
-    name       = "Alerts"
-    url        = ""
+    name       = "Operateur telecom"
+    url        = "/more/operateur-telecom/"
     weight     = 2
-    parent     = "section.shortcodes"
+    parent     = "section.more"
 
 [[menu.main]]
-    name       = "Buttons"
-    url        = ""
+    name       = "CDN"
+    url        = "/more/CDN"
     weight     = 3
-    parent     = "section.shortcodes"
+    parent     = "section.more"
 
 [[menu.main]]
-    name       = "Content Boxes"
-    url        = ""
+    name       = "Fournisseur Cloud"
+    url        = "/more/fournisseur-cloud"
     weight     = 4
-    parent     = "section.shortcodes"
+    parent     = "section.more"
 
 [[menu.main]]
-    name       = "Horizontal Blocks"
-    url        = ""
+    name       = "Secteur Financier"
+    url        = "/more/secteur-financier"
     weight     = 5
-    parent     = "section.shortcodes"
+    parent     = "section.more"
 
 [[menu.main]]
-    name       = "Pagination"
-    url        = ""
+    name       = "Site web à fort traffic"
+    url        = "/more/traffic"
     weight     = 6
-    parent     = "section.shortcodes"
+    parent     = "section.more"
 
 [[menu.main]]
-    name       = "Tabs"
-    url        = ""
+    name       = "Grands Comptes"
+    url        = "/more/grands-comptes"
     weight     = 7
-    parent     = "section.shortcodes"
+    parent     = "section.more"
 
 [[menu.main]]
-    name       = "Typography"
-    url        = ""
-    weight     = 8
-    parent     = "section.shortcodes"
-
-[[menu.main]]
-    name       = "Default Sticky Header"
-    url        = ""
-    weight     = 1
-    parent     = "section.headervariations"
-
-[[menu.main]]
-    name       = "No Sticky Header"
-    url        = ""
-    weight     = 2
-    parent     = "section.headervariations"
-
-[[menu.main]]
-    name       = "Light Header"
-    url        = ""
-    weight     = 3
-    parent     = "section.headervariations"
-
-[[menu.main]]
-    name       = "Portfolio"
-    identifier = "menu.portfolio"
-    url        = "/img/template-homepage.png"
-    weight     = 3
-
-[[menu.main]]
-    name       = "Portfolio"
-    identifier = "section.portfolio"
-    url        = ""
-    weight     = 1
-    parent     = "menu.portfolio"
-    post       = 1
-
-[[menu.main]]
-    name       = "2 Columns"
-    url        = ""
-    weight     = 1
-    parent     = "section.portfolio"
-
-[[menu.main]]
-    name       = "2 Columns With Negative Space"
-    url        = ""
-    weight     = 2
-    parent     = "section.portfolio"
-
-[[menu.main]]
-    name       = "3 Columns"
-    url        = ""
-    weight     = 3
-    parent     = "section.portfolio"
-
-[[menu.main]]
-    name       = "3 Columns With Negative Space"
-    url        = ""
-    weight     = 4
-    parent     = "section.portfolio"
-
-[[menu.main]]
-    name       = "4 Columns"
-    url        = ""
-    weight     = 5
-    parent     = "section.portfolio"
-
-[[menu.main]]
-    name       = "4 Columns With Negative Space"
-    url        = ""
-    weight     = 6
-    parent     = "section.portfolio"
-
-[[menu.main]]
-    name       = "Portfolio - detail"
-    url        = ""
-    weight     = 7
-    parent     = "section.portfolio"
-
-[[menu.main]]
-    name       = "Portfolio - detail 2"
-    url        = ""
-    weight     = 8
-    parent     = "section.portfolio"
-
-[[menu.main]]
-    name       = "About"
-    identifier = "section.about"
-    url        = ""
-    weight     = 2
-    parent     = "menu.portfolio"
-    post       = 2
-
-[[menu.main]]
-    name       = "About Us"
-    url        = ""
-    weight     = 1
-    parent     = "section.about"
-
-[[menu.main]]
-    name       = "Our Team"
-    url        = ""
-    weight     = 2
-    parent     = "section.about"
-
-[[menu.main]]
-    name       = "Marketing"
-    identifier = "section.marketing"
-    url        = ""
-    weight     = 3
-    parent     = "menu.portfolio"
-    post       = 2
-
-[[menu.main]]
-    name       = "Packages"
-    url        = ""
-    weight     = 1
-    parent     = "section.marketing"
-
-[[menu.main]]
-    name       = "All Pages"
-    identifier = "menu.allpages"
-    url        = ""
-    weight     = 4
-
-[[menu.main]]
-    name       = "Home"
-    identifier = "section.ap-home"
-    url        = ""
-    weight     = 1
-    parent     = "menu.allpages"
-    post       = 1
-
-[[menu.main]]
-    name       = "About"
-    identifier = "section.ap-about"
-    url        = ""
-    weight     = 2
-    parent     = "menu.allpages"
-    post       = 1
-
-[[menu.main]]
-    name       = "Marketing"
-    identifier = "section.ap-marketing"
-    url        = ""
-    weight     = 3
-    parent     = "menu.allpages"
-    post       = 1
-
-[[menu.main]]
-    name       = "Portfolio"
-    identifier = "section.ap-portfolio"
-    url        = ""
-    weight     = 1
-    parent     = "menu.allpages"
-    post       = 2
-
-[[menu.main]]
-    name       = "User Pages"
-    identifier = "section.ap-userpages"
-    url        = ""
-    weight     = 2
-    parent     = "menu.allpages"
-    post       = 2
-
-[[menu.main]]
-    name       = "Shop"
-    identifier = "section.ap-shop"
-    url        = ""
-    weight     = 1
-    parent     = "menu.allpages"
-    post       = 3
-
-[[menu.main]]
-    name       = "Shop - Order Process"
-    identifier = "section.ap-shoporderprocess"
-    url        = ""
-    weight     = 2
-    parent     = "menu.allpages"
-    post       = 3
-
-[[menu.main]]
-    name       = "Contact"
-    identifier = "section.ap-contact"
-    url        = ""
-    weight     = 1
-    parent     = "menu.allpages"
-    post       = 4
-
-[[menu.main]]
-    name       = "Pages"
-    identifier = "section.ap-pages"
-    url        = ""
-    weight     = 2
-    parent     = "menu.allpages"
-    post       = 4
-
-[[menu.main]]
-    name       = "Blog"
-    identifier = "section.ap-blog"
-    url        = "/blog/"
-    weight     = 3
-    parent     = "menu.allpages"
-    post       = 4
-
-[[menu.main]]
-    name       = "Blog Listing Big"
-    url        = "/blog/"
-    weight     = 1
-    parent     = "section.ap-blog"
-
-[[menu.main]]
-    name       = "Blog"
-    identifier = "menu.blog"
-    url        = "/blog/"
-    weight     = 5
-
-[[menu.main]]
-    name       = "FAQ"
+    name       = "About us"
     identifier = "menu.faq"
     url        = "/faq/"
     weight     = 6
@@ -325,6 +123,49 @@ pluralizelisttitles = false
     url        = "/contact/"
     weight     = 7
 
+[[menu.main]]
+    identifier = "test2"
+    name       = "test2"
+    url        = "/test2/"
+    weight     = 4
+
+[[menu.main]]
+    identifier = "test"
+    name       = "test"
+    url        = "/test/"
+    weight     = 3
+
+[[menu.main]]
+    identifier = "services"
+    name       = "services"
+    url        = "/img/peering.png"
+    weight     = 2
+
+[[menu.main]]
+    identifier = "section.services"
+    name       = "services"
+    url        = ""
+    weight     = 1
+    parent     = "services"
+    post      = "1"
+
+[[menu.main]]
+    name       = "Internet peering"
+    url        = "/services/peering/"
+    weight     = 1
+    parent     = "section.services"
+
+[[menu.main]]
+    name       = "private interconnect"
+    url        = "/services/private/"
+    weight     = 2
+    parent     = "section.services"
+
+[[menu.main]]
+    name       = "Cloud connect"
+    url        = "/services/cloud/"
+    weight     = 3
+    parent     = "section.services"
 
 # Top bar social links menu
 
@@ -359,10 +200,10 @@ pluralizelisttitles = false
     pre = "<i class='fas fa-2x fa-envelope'></i>"
 
 [params]
-    viewMorePostLink = "/blog/"
+    viewMorePostLink = "/more/"
     author = "DevCows"
     defaultKeywords = ["devcows", "hugo", "go"]
-    mainSections = ["blog"]
+    mainSections = ["more","test2"]
     defaultDescription = "Site template made by Devcows using Hugo"
 
     # Social media
@@ -439,7 +280,9 @@ pluralizelisttitles = false
       """
 
 [permalinks]
-    blog = "/blog/:filename/"
+    more = "/more/:filename/"
+    test2 = "/test2/:filename/"
+    services = "/services/:filename/"
 
 # Enable or disable top bar with social icons
 [params.topbar]
@@ -452,9 +295,9 @@ pluralizelisttitles = false
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]
-    categories = true
-    tags = true
-    search = true
+    categories = false
+    tags = false
+    search = false
 
 [params.carouselCustomers]
     items = 6

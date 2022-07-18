@@ -1,5 +1,5 @@
 weight: 1
-name: "Webdesign"
-icon: "fas fa-desktop"
-url: ""
-description: "Fifth abundantly made Give sixth hath. Cattle creature i be don't them behold green moved fowl Moved life us beast good yielding. Have bring."
+name: "Peering"
+icon: "fas fa-network-wired"
+url: "/services/peering/"
+description: "CAS-IX Peering service enables you to interconnect with a multitude of networks directly. You will exchange internet traffic using only one connection and cross connect."
