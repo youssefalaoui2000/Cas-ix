@@ -1,5 +1,5 @@
 baseurl = "https://glowing-fairy-06486d.netlify.app/" 
-title = "Universal"
+title = "CAS-IX"
 theme = "hugo-universal-theme"
 themesDir = "./themes"
 languageCode = "en-us"
@@ -112,6 +112,12 @@ pluralizelisttitles = false
     parent     = "section.more"
 
 [[menu.main]]
+    name       = "Transit ip et Peering"
+    url        = "/more/transit-ip-peering"
+    weight     = 8
+    parent     = "section.more"
+
+[[menu.main]]
     name       = "About us"
     identifier = "menu.faq"
     url        = "/faq/"
@@ -166,6 +172,7 @@ pluralizelisttitles = false
     url        = "/services/cloud/"
     weight     = 3
     parent     = "section.services"
+
 
 # Top bar social links menu
 
@@ -337,11 +344,11 @@ pluralizelisttitles = false
 
 [params.see_more]
     enable = true
-    icon = "far fa-file-alt"
-    title = "Do you want to see more?"
-    subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
-    link_url = "#"
-    link_text = "Check other homepages"
+    icon = "far fa-envelope"
+    title = "Do you want to contact us?"
+    subtitle = "Find below our contact page"
+    link_url = "/contact"
+    link_text = "Contact us"
 
 [params.clients]
     enable = true

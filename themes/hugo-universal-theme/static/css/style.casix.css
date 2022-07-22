@@ -11,6 +11,19 @@
   }
   
   img[alt=about] { width: 100%; }
+  img[alt=peering1] { display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%; }
+  img[alt=peering2] { display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%; }
+  img[alt=cloud1] { display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%; }
+  
 
   /*.div2{
     
@@ -19,9 +32,8 @@
   }*/
 
   .div4{
-    color: rgb(250, 149, 16);
     text-align: center;
-    padding: 100%;
+    padding: 1%;
     background: url('../img/colocation-2.jpg') center center no-repeat;
 
   }
@@ -1468,7 +1480,7 @@
   }
   .box-simple .icon {
     color: #fab614;/*var(--primary-accent);*/;
-    border-color: #fab614;/*var(--primary-accent);*/;
+    border-color: #fab51400;/*var(--primary-accent);*/;
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
@@ -2199,8 +2211,13 @@
   #blog-homepage .post .read-more {
     margin-top: 20px;
   }
+  #blog-post.col-md-9{
+    width: 100%;
+    font-size: large;
+  }
   #blog-post #post-content {
     margin-bottom: 20px;
+    text-align: justify;
   }
   #blog-post .comment {
     margin-bottom: 25px;

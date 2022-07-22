@@ -1,5 +1,5 @@
 weight: 1
 name: "Peering"
-icon: "fas fa-network-wired"
+image: "https://eu-e25b.kxcdn.com/images/_serviceLogo/Internet-Peering.png"
 url: "/services/peering/"
 description: "CAS-IX Peering service enables you to interconnect with a multitude of networks directly. You will exchange internet traffic using only one connection and cross connect."
