@@ -1,0 +1,5 @@
+weight: 2
+name: "Cloud"
+image: "https://eu-e25b.kxcdn.com/images/_serviceLogo/Cloud-Services.png"
+url: "/services/cloud/"
+description: "With CAS-IX Cloud Connect, you have direct access to all Microsoft, Cloudflare and Google cloud services via our existing network infrastructure."

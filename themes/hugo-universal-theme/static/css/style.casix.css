@@ -23,7 +23,34 @@
     margin-left: auto;
     margin-right: auto;
     width: 60%; }
-  
+  img[alt=cdn] { display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%; }
+  img[alt=opt] { display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%; }
+  img[alt=cloudprovider] { display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%; }
+  img[alt=financialsector] { display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%; }
+  img[alt=traffic] { display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%; }
+  img[alt=keyaccount] { display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; }
+  img[alt=private] { display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%; }
 
   /*.div2{
     
@@ -430,6 +457,7 @@
     }
   }
   .navbar .yamm-content h5 {
+    font-size: large;
     text-transform: uppercase;
     padding-bottom: 10px;
     border-bottom: dotted 1px #555555;
@@ -448,7 +476,7 @@
   .navbar .yamm-content ul li a {
     position: relative;
     color: #999999;
-    font-size: 12px;
+    font-size: 15px;
     display: block;
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;

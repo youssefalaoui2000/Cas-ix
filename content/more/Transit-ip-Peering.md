@@ -1,58 +1,58 @@
 +++
-title = "Transit ip et peering"
-weight = 7
+title = "Transit ip and peering"
+weight = 1
 banner = "img/banners/transit-ip-peering.jpg"
-summary = "Les opérateurs télécom disposent de deux services d’interconnexion permettant de se connecter  sur Internet : le peering et le transit. Si ces deux termes répondent à un même besoin, faciliter le trafic internet..."
+summary = "Telecom operators have two interconnection services that allow their networks to connect directly and indirectly to the Internet: peering and transit. If these two terms answer the same need, to facilitate the Internet traffic, they remain different...."
 +++
 
-Les opérateurs télécom disposent de deux services d’interconnexion permettant à leurs réseaux de se connecter directement et indirectement sur Internet : le peering et le transit. Si ces deux termes répondent à un même besoin, faciliter le trafic internet, ils n’en demeurent pas moins différents dans leur aspect.
+Telecom operators have two interconnection services that allow their networks to connect directly and indirectly to the Internet: peering and transit. If these two terms answer the same need, to facilitate the Internet traffic, they remain different in their aspect.
 
-### Le trafic internet
+### Internet traffic
 
-**Internet est un ensemble de réseaux interconnectés. Ces réseaux utilisent des protocoles communs pour échanger des informations.** Ces grands réseaux comprennent des serveurs internet qui agissent comme des référentiels centraux d’informations et d’autres serveurs qui se chargent de l’acheminement de ces informations. Les routeurs vont, eux, s’assurer que les périphériques installés sur ces réseaux puissent communiquer entre eux.
+**The Internet is a set of interconnected networks. These networks use common protocols to exchange information.** These large networks include Internet servers that act as central repositories of information and other servers that are responsible for routing this information. The routers will ensure that the devices installed on these networks can communicate with each other.
 
-Lorsqu’un routeur réseau reçoit une requête, il interroge sa table de routage pour déterminer le chemin le plus court pour acheminer les informations. Celui-ci va d’abord regarder sur son propre réseau pour déterminer si la destination s’y trouve. Si ce n’est pas le cas, un routeur « passerelle » va se charger de sortir la requête du réseau.
+When a network router receives a request, it queries its routing table to determine the shortest path to route the information. It will first look on its own network to determine if the destination is there. If it is not, a "gateway" router will take care of getting the request out of the network.
 
-En sortant de son propre réseau, la requête va devoir trouver sa route au travers d’internet. Internet se constitue d’un empilement hiérarchique de réseaux.
+When leaving its own network, the request will have to find its way through the Internet. The Internet is made up of a hierarchical stack of networks.
 
-* **Les réseaux de plus haut niveau, backbone de l’internet : Le backbone ou dorsale Internet résulte de l’interconnexion des réseaux de fibres optiques à haut débit des opérateurs télécoms.** En se regroupant, ces opérateurs réseaux vont mettre en place un réseau global comprenant l’ensemble des tables de routage de l’internet mondial (AT&T, Orange, Cogent ...)
+* **The higher level networks, the Internet backbone: The Internet backbone is the result of the interconnection of high-speed fiber optic networks of telecom operators.** By joining forces, these network operators will set up a global network including all the routing tables of the global Internet (AT&T, Orange, Cogent ...)
 
-* **Viennent ensuite des réseaux plus petits. Tout en bas de ces strates se trouvent des opérateurs, bien souvent les FAI auprès desquels souscrivent les consommateurs et les entreprises, ne pouvant accéder en direct au backbone.** En théorie, leur trafic se limiterait à leur propre réseau. Pour régler ce problème, des réseaux intermédiaires vont se charger d’établir un lien entre les réseaux de plus haut niveau, et ceux plus bas. 
+* **Then there are smaller networks. At the bottom of these layers are operators, often ISPs (Internet service provider ), to which consumers and companies subscribe, and which cannot access the backbone directly.** In theory, their traffic would be limited to their own network. To solve this problem, intermediate networks will take care of establishing a link between the higher level networks and the lower ones. 
 
-Ces interconnexions permettent à des réseaux, limités en taille, d’acheminer des informations partout dans le monde. Pour autant, ces interconnexions vont se dérouler de plusieurs manières.
+These interconnections allow networks, limited in size, to carry information around the world. However, these interconnections will take place in several ways.
 
-### Qu’est-ce que le peering ?
-**Ces réseaux de tailles différentes vont donc se lier les uns aux autres. Ceux-ci peuvent nouer des liens directs entre eux. Chacun donne accès à l’autre aux tables de routage de son réseau afin de faciliter l’acheminement de l’information. Toutefois, cet accord ne va fonctionner que pour des réseaux, et des opérateurs, de taille similaire.** Les réseaux de bas niveau ne peuvent mettre en place pareil échange avec des acteurs de plus haut niveau. Les opérateurs nationaux (comme les FAI français) peuvent aussi déployer de larges réseaux nationaux, voir internationaux, en multipliant les accords de peering. Toutefois, sans accès au backbone, ceux-ci ne peuvent garantir un accès global à internet à leurs clients.    
+### What is peering?
+**These networks of different sizes will therefore link to each other. They can establish direct links between them. Each one gives access to the other to the routing tables of its network in order to facilitate the routing of information. However, this agreement will only work for networks and operators of similar size.** Low-level networks cannot set up such an exchange with higher-level players. National operators can also deploy large national or even international networks by multiplying peering agreements. However, without access to the backbone, they cannot guarantee global Internet access to their customers.    
 
-### Qu’est-ce que le transit ip ?
-**Le peering ne suffit donc pas parfois pour acheminer un paquet d’un point A à un point B. En effet, il existe une asymétrie entre les réseaux des différents acteurs télécoms. Un accord financier est alors établi pour qu’un opérateur puisse accéder à un plus gros réseau. Ce dernier est nommé transitaire.**
+### What is ip transit?
+**Peering is therefore sometimes not enough to route a packet from point A to point B. Indeed, there is an asymmetry between the networks of the various telecom players. A financial agreement is then established so that an operator can access a larger network. The latter is called a forwarder.**
 
-Donc, lorsqu’une entreprise souhaite envoyer ou recevoir des informations sur Internet, elle doit « transiter » par un ou plusieurs réseaux tiers afin d’atteindre sa destination finale. Bien souvent, l’entreprise va traiter avec un FAI située en bas de l’échelle des réseaux. Et cette FAI va nouer des liens avec d’autres opérateurs pour proposer un service d’accès complet à internet.  
+So, when a company wants to send or receive information on the Internet, it must "transit" through one or more third-party networks in order to reach its final destination. Very often, the company will deal with an ISP located at the bottom of the network ladder. And this ISP will establish links with other operators to offer a complete Internet access service.  
 
-Dans ces conditions, la qualité du service proposé par un opérateur sera corrélée aux nombres d’interconnexions nouées avec d’autres réseaux.
+Under these conditions, the quality of service offered by an operator will be correlated to the number of interconnections made with other networks.
 
 
 
 <img src="/img/banners/transit-ip-peering.jpg" width="60%" height="60%">
 
 
-<strong><u>L’interconnexion des réseaux par Peering et Transit</u></strong>
+<strong><u>Network interconnection by Peering and Transit</u></strong>
 
-### Niveaux de fournisseurs de transit IP
+### IP Transit Provider Levels
 
-Les fournisseurs de transit IP sont divisés en trois niveaux. Ces derniers suivent les niveaux des différents backbones constitutifs d’internet :
+IP transit providers are divided into three tiers. These follow the levels of the different backbones that make up the Internet:
 
-1. **Les opérateurs de niveau 1 (tier 1)**    
-**Les fournisseurs de niveau 1 ont une portée mondiale étendue. Ces fournisseurs se connectent les uns aux autres pour former la « colonne vertébrale » d’Internet.** Les fournisseurs de niveau 1 échangent librement entre eux, mais vont faire payer les acteurs situés en dessous pour leur donner accès à leur réseau. La combinaison de ces fournisseurs de niveau 1 forme un ensemble de tables de routage étendues capables d’acheminer les demandes n’importe où sur Internet.
+1. **Level 1 operators (tier 1)**    
+**Tier 1 providers have a broad global reach. These providers connect to each other to form the "backbone" of the Internet.** Tier 1 providers exchange freely with each other, but will charge actors below them for access to their network. The combination of these Tier 1 providers forms a set of extended routing tables capable of routing requests anywhere on the Internet.
 
-2. **Les opérateurs de niveau 2 (tier 2)**    
-**Les fournisseurs de niveau 2 disposent de grands réseaux avec plusieurs emplacements physiques et centres de données.** Ces acteurs s’échangeront généralement librement les uns avec les autres afin d’étendre leur capacité de diffusion de contenu; et d’éviter au passage les coûts d’utilisation liés à l’accès à un réseau de niveau 1.
+2. **Level 2 operators (tier 2)**    
+**Tier 2 providers have large networks with multiple physical locations and data centers.** These players will generally exchange freely with each other in order to expand their content delivery capacity; and in the process avoid the usage costs associated with access to a level 1 network.
 
-3. **Les opérateurs de niveau 3 (tier 3)**    
-Les fournisseurs de niveau 3 sont généralement des fournisseurs locaux avec des listes de clients plus petites. **Ils achèteront généralement une plus petite partie du transit IP par l’intermédiaire d’un fournisseur de niveau 2 pour éviter les coûts plus élevés d’aller directement à un FAI de niveau 1.**
+3. **Level 3 operators (tier 3)**    
+Tier 3 suppliers are typically local suppliers with smaller customer lists. **They will typically purchase a smaller portion of IP transit through a Tier 2 provider to avoid the higher costs of going directly to a Tier 1 ISP.**
 
-### Quelle est la différence entre Transit et Peering
-Aucun réseau n’est assez grand pour connecter chaque personne et chaque ordinateur. Le Transit et le Peering se chargent de cette interconnexion. Le Transit et le Peering vont donc déterminer la manière dont le trafic circule sur Internet.
+### What is the difference between Transit and Peering
+No network is big enough to connect every person and every computer. Transit and Peering take care of this interconnection. Transit and Peering will therefore determine the way traffic flows on the Internet.
 
-**L’aspect monétaire constitue la différence majeure entre ces deux méthodes.** En effet, le peering est utilisé par des réseaux de même valeur, même si parfois les différences peuvent se régler par un accord financier. Le transit, lui, implique nécessairement une transaction puisqu’il s’agit d’un accord de trafic entre deux réseaux dont la valeur intrinsèque diffère.
+**The monetary aspect is the major difference between these two methods.** Indeed, peering is used by networks of the same value, even if sometimes the differences can be settled by a financial agreement. Transit, on the other hand, necessarily involves a transaction, since it is a traffic agreement between two networks with different intrinsic values.
 

@@ -3,7 +3,7 @@
 
         {{ if isset .Site.Params "about_us" }}
         <div class="col-md-4 col-sm-6">
-            <h4>{{ i18n "aboutUs" }}</h4>
+            <h4><a href="/about-us/">{{ i18n "aboutUs" }}</a></h4>
 
             {{ .Site.Params.about_us | safeHTML }}
 
@@ -16,7 +16,7 @@
         <div class="col-md-4 col-sm-6">
 
             {{ if isset .Site.Params "recent_posts" }}{{ if (default true .Site.Params.footer.recent_posts.enable) }}
-            <h4>{{ i18n "recentPosts" }}</h4>
+            <h4> <a href="/more/">Learn more</a></h4>
 
             <div class="blog-entries">
                 {{ range first 3 (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
@@ -46,7 +46,7 @@
         {{ if isset .Site.Params "address" }}
         <div class="col-md-4 col-sm-6">
 
-          <h4>{{ i18n "contactTitle" }}</h4>
+          <h4><a href="/contact/">{{ i18n "contactTitle" }}</a></h4>
 
             {{ .Site.Params.address | safeHTML }}
 
@@ -73,13 +73,13 @@ _________________________________________________________ -->
     <div class="container">
         <div class="col-md-12">
             {{ if isset .Site.Params "copyright" }}
-            <p class="pull-left">{{ .Site.Params.copyright | safeHTML }}</p>
+            <p class="pull-left"><a href="https://www.nplusone.ma/">{{ .Site.Params.copyright | safeHTML }}</a></p>
             {{ end }}
             <p class="pull-right">
-              {{ i18n "templateBy" | markdownify }} <a href="https://bootstrapious.com/p/universal-business-e-commerce-template">Bootstrapious</a>.
-              <!-- Not removing this link is part of the licence conditions of the template. Thanks for understanding :) -->
+              <!-- {{ i18n "templateBy" | markdownify }} <a href="https://bootstrapious.com/p/universal-business-e-commerce-template">Bootstrapious</a>.
+              Not removing this link is part of the licence conditions of the template. Thanks for understanding :) 
 
-              {{ i18n "portedBy" | markdownify }} <a href="https://github.com/devcows/hugo-universal-theme">DevCows</a>.
+              {{ i18n "portedBy" | markdownify }} <a href="https://github.com/devcows/hugo-universal-theme">DevCows</a>.-->
             </p>
         </div>
     </div>

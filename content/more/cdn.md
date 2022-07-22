@@ -2,10 +2,23 @@
 title = "CDN"
 weight = 2
 banner = "img/banners/cdn.jpg"
+summary = "By connecting their cache servers to the Casablanca IXP, CDNs (Content Distribution Networks) manage to place themselves closer to their audience. By connecting their cache servers to the Casablanca IXP, CDNs (Content Distribution Networks) manage to..."
 +++
 
-En connectant leurs serveurs de cache à l'IXP de Casablanca les CDNs (Réseaux de distribution de contenus.) parviennent à se placer au plus près de leur audience.
+![cdn](/more/images/cdn3.jpg)
 
 
-Les latences d'accès aux ressources mise en cache s'en trouvent radicalement améliorées.
-Ce qui se traduit par une qualité de service perçue par l'utilisateur final nettement améliorée.
+By connecting their cache servers to the Casablanca IXP, CDNs (Content Distribution Networks) manage to place themselves closer to their audience.  
+
+Access latencies to cached resources are radically improved. This results in a significantly improved quality of service perceived by users.
+
+## Benefits of Content Delivery network
+
+1. CDNs facilitate faster page loads.
+2. Users get improved streaming quality.
+3. CDNs helps to deliver better user experienceswhen downloading video and audio content.
+4. Internet speed improve.
+5. File mirroring protects data if natural disasters affect certain areas of the Internet.
+6. Optimize Live Delivery.
+7. Enable Linear Networks.
+8. Support Video on Demand.

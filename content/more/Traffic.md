@@ -1,18 +1,18 @@
 +++
-title = "Sites Web à fort traffic"
+title = "High traffic websites"
 weight = 5
 #tags = ["golang", "programming", "theme", "hugo"]
 #categories = ["programming","lorem","pseudo"]
 banner = "img/banners/traffic.png"
 #authors = ["John Doe"]
-summary="En connectant votre réseau de serveurs web au point d'échange internet de Casablanca vous bénéficiez non seulement d'une proximité inégalée de vos utilisateurs chez les trois opérateurs mais vous vous connectez aussi aux..."
+summary="By connecting your web server network to the Casablanca Internet Exchange Point you not only benefit from unparalleled proximity to your users at all three operators but you also connect to content distribution networks (CDNs) that are also members of the IXP...."
 
 +++
 
 
-![your image](/more/images/peering.png)
+![traffic](/more/images/peering.png)
 
 
-En connectant votre réseau de serveurs web au point d'échange internet de Casablanca vous bénéficiez non seulement d'une proximité inégalée de vos utilisateurs chez les trois opérateurs mais vous vous connectez aussi aux réseaux de distribution de contenu (CDNs) qui sont membres aussi de l'IXP.
+By connecting your web server network to the Casablanca Internet Exchange Point you not only benefit from unparalleled proximity to your users at all three operators but you also connect to content distribution networks (CDNs) that are also members of the IXP.
 
-En peerant avec les opérateurs télécom et les CDNs vous gardez l'intégralité de votre traffic internet au Maroc et atteignez ainsi des temps d'accès optimaux de l'ordre de quelques milisecondes uniquement.
+By peering with telecom operators and CDNs you keep all your internet traffic in Morocco and reach optimal access times of only a few milliseconds.

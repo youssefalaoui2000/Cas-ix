@@ -78,7 +78,7 @@ pluralizelisttitles = false
 [[menu.main]]
     name       = "Operateur telecom"
     url        = "/more/operateur-telecom/"
-    weight     = 2
+    weight     = 8
     parent     = "section.more"
 
 [[menu.main]]
@@ -88,14 +88,14 @@ pluralizelisttitles = false
     parent     = "section.more"
 
 [[menu.main]]
-    name       = "Fournisseur Cloud"
-    url        = "/more/fournisseur-cloud"
+    name       = "Cloud Provider"
+    url        = "/more/cloud-provider"
     weight     = 4
     parent     = "section.more"
 
 [[menu.main]]
-    name       = "Secteur Financier"
-    url        = "/more/secteur-financier"
+    name       = "Financial sector"
+    url        = "/more/financial-sector"
     weight     = 5
     parent     = "section.more"
 
@@ -106,21 +106,21 @@ pluralizelisttitles = false
     parent     = "section.more"
 
 [[menu.main]]
-    name       = "Grands Comptes"
-    url        = "/more/grands-comptes"
+    name       = "Key accounts"
+    url        = "/more/key-accounts"
     weight     = 7
     parent     = "section.more"
 
 [[menu.main]]
-    name       = "Transit ip et Peering"
+    name       = "Transit ip and Peering"
     url        = "/more/transit-ip-peering"
-    weight     = 8
+    weight     = 2
     parent     = "section.more"
 
 [[menu.main]]
     name       = "About us"
-    identifier = "menu.faq"
-    url        = "/faq/"
+    identifier = "menu.about-us"
+    url        = "/about-us/"
     weight     = 6
 
 [[menu.main]]
@@ -129,22 +129,12 @@ pluralizelisttitles = false
     url        = "/contact/"
     weight     = 7
 
-[[menu.main]]
-    identifier = "test2"
-    name       = "test2"
-    url        = "/test2/"
-    weight     = 4
 
-[[menu.main]]
-    identifier = "test"
-    name       = "test"
-    url        = "/test/"
-    weight     = 3
 
 [[menu.main]]
     identifier = "services"
     name       = "services"
-    url        = "/img/peering.png"
+    url        = "/img/service3.png"
     weight     = 2
 
 [[menu.main]]
@@ -164,13 +154,25 @@ pluralizelisttitles = false
 [[menu.main]]
     name       = "private interconnect"
     url        = "/services/private/"
-    weight     = 2
+    weight     = 3
     parent     = "section.services"
 
 [[menu.main]]
     name       = "Cloud connect"
     url        = "/services/cloud/"
-    weight     = 3
+    weight     = 2
+    parent     = "section.services"
+
+[[menu.main]]
+    name       = "Easyaccess"
+    url        = "/services/easyaccess/"
+    weight     = 4
+    parent     = "section.services"
+
+[[menu.main]]
+    name       = "Colocation"
+    url        = "/services/colocation/"
+    weight     = 5
     parent     = "section.services"
 
 
@@ -210,7 +212,7 @@ pluralizelisttitles = false
     viewMorePostLink = "/more/"
     author = "DevCows"
     defaultKeywords = ["devcows", "hugo", "go"]
-    mainSections = ["more","test2"]
+    mainSections = ["more"]
     defaultDescription = "Site template made by Devcows using Hugo"
 
     # Social media
@@ -262,8 +264,8 @@ pluralizelisttitles = false
     enableRecaptchaInContactForm = false
     googleRecaptchaKey = "site_key_for_google_recaptcha"
 
-    about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-    copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
+    about_us = "<p>A recognized leader in the colocation and online services industry for more than 10 years, N+ONE DATACENTERS helps customers deliver high-quality services and technology solutions.</p>"
+    copyright = "Copyright (c) 2022, N+ONE DATACENTERS; all rights reserved."
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
@@ -271,10 +273,10 @@ pluralizelisttitles = false
     dropdown_mouse_over = false
 
     disabled_logo = false
-    logo_text = "Universal"
+    logo_text = "CAS-IX"
 
     logo = "img/logo-casix.png"
-    logo_small = "img/logo-small.png"
+    logo_small = "img/logo-casix.png"
     contact_url = "/contact"
     address = """<p class="text-uppercase"><strong>Universal Ltd.</strong>
         <br>13/25 New Avenue
@@ -288,7 +290,6 @@ pluralizelisttitles = false
 
 [permalinks]
     more = "/more/:filename/"
-    test2 = "/test2/:filename/"
     services = "/services/:filename/"
 
 # Enable or disable top bar with social icons
@@ -360,7 +361,7 @@ pluralizelisttitles = false
 
 [params.recent_posts]
     enable = true
-    title = "A quoi ça sert ?"
+    title = "Learn more"  
     #subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
     hide_summary = false
 
