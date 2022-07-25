@@ -27,7 +27,13 @@
    height: 300px;
    float: left;
    padding: 20px;
-}   
+}
+@media (max-width: 530px) {
+  .float-child,
+  .float-child2{
+    width: 270px;
+  }
+}
 
 
 /* Center images*/
