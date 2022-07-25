@@ -1,7 +1,7 @@
 +++
 title = "CDN"
 weight = 2
-banner = "img/banners/cdn.jpg"
+banner = "img/banners/cdnbanner.jpg"
 summary = "By connecting their cache servers to the Casablanca IXP, CDNs (Content Distribution Networks) manage to place themselves closer to their audience. By connecting their cache servers to the Casablanca IXP, CDNs (Content Distribution Networks) manage to..."
 +++
 

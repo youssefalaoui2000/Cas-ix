@@ -53,7 +53,7 @@ The Internet Peering service is used by Internet Service Providers (ISPs), carri
                                     <img src="/services/images/benefitspeering15.png" width="85%" height="85%">
                                 </div>
                             <h3>24/7 first-line technical support</h3>
-                            <p>Our NOC actively monitors the AMS-IX infrastructure 24x7</p>
+                            <p>Our NOC actively monitors the CAS-IX infrastructure 24x7</p>
                         </div>
                         <div class="float-child">
                                 <div class="icon">

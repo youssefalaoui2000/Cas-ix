@@ -2,7 +2,7 @@
 title = "Network Peering"
 weight = 6
 description = "Peering is a process by which two Internet networks connect and exchange traffic. It allows them to directly hand off traffic between each other's customers without having to pay a third party to carry that traffic across the Internet for them."
-banner = "img/banners/ixp2.png"
+banner = "img/banners/networkpeering.jpg"
 +++
 
 Peering is a process by which two Internet networks connect and exchange traffic. It allows them

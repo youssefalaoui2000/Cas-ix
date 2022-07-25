@@ -76,6 +76,14 @@
     margin-left: auto;
     margin-right: auto;
     width: 55%; }
+  img[alt=easyaccess1] { display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%; }
+  img[alt=colocation] { display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%; }
 
   /*.div2{
     
@@ -1271,8 +1279,11 @@
   @media (max-width: 767px) {
     .home-carousel {
       text-align: center !important;
+      background: url('../img/vector-AUG-2020-33.jpg') center center repeat;
     }
   }
+ 
+  
   @media (min-width: 992px) {
     .home-carousel .right {
       text-align: center;
@@ -1311,11 +1322,19 @@
     padding: 0;
     text-transform: uppercase;
     letter-spacing: 0.10em;
+    
+
   }
   @media (max-width: 991px) {
     .home-carousel ul,
     .home-carousel p {
       font-size: 14px;
+    }
+  }
+  @media (max-width: 767px) {
+    .home-carousel h1,
+    .home-carousel p {
+      color: #444343;
     }
   }
   .home-carousel ul li {

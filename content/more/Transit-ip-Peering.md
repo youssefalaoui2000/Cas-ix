@@ -1,7 +1,7 @@
 +++
 title = "Transit ip and peering"
 weight = 1
-banner = "img/banners/transit-ip-peering.jpg"
+banner = "img/banners/peeringbanner.jpg"
 summary = "Telecom operators have two interconnection services that allow their networks to connect directly and indirectly to the Internet: peering and transit. If these two terms answer the same need, to facilitate the Internet traffic, they remain different...."
 +++
 

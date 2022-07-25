@@ -1,7 +1,7 @@
 +++
 title = "Cloud Provider"
-weight = 3
-banner = "img/banners/cloud-providers.jpg"
+weight = 4
+banner = "img/banners/cloudbanner1.png"
 summary="The Casablanca IXP is the true entry point to the Moroccan cloud computing market, and is also a major lever for the democratization of access to very low latency cloud services for the Moroccan public. By positioning yourself at the Casablanca IXP today, you will gain..."
 +++
 

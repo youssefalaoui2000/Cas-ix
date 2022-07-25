@@ -1,10 +1,9 @@
 +++
 title = "High traffic websites"
 weight = 5
-#tags = ["golang", "programming", "theme", "hugo"]
-#categories = ["programming","lorem","pseudo"]
-banner = "img/banners/traffic.png"
-#authors = ["John Doe"]
+
+banner = "img/banners/htw.jpg"
+
 summary="By connecting your web server network to the Casablanca Internet Exchange Point you not only benefit from unparalleled proximity to your users at all three operators but you also connect to content distribution networks (CDNs) that are also members of the IXP...."
 
 +++
