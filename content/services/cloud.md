@@ -11,4 +11,29 @@ With CAS-IX Cloud Connect, you get direct access to all Microsoft, Cloudflare, a
 ## Benefits of CAS-IX Cloud Connect
 
 
-<img src="/services/images/cloud2.png" width="80%" height="80%">
+<div class="float-container" >
+                        <div class="float-child2">
+                                <div class="icon">
+                                    <img src="/services/images/benefitscloud2.png" width="130%" height="130%">
+                                </div>
+                            <h3>Connect direct to Microsoft, Cloudflare and Google</h3>
+                        </div>
+                        <div class="float-child2">
+                                <div class="icon">
+                                    <img src="/services/images/benefitscloud1.png" width="130%" height="130%">
+                                </div>
+                            <h3>Gain reliable uptime</h3>
+                        </div>
+                        <div class="float-child2">
+                                <div class="icon">
+                                    <img src="/services/images/benefitspeering14.png" width="100%" height="50%">
+                                </div>
+                            <h3>Benefit from low latency</h3>
+                        </div>
+                        <div class="float-child2">
+                                <div class="icon">
+                                    <img src="/services/images/benefitspeering11.png" width="90%" height="90%">
+                                </div>
+                            <h3>Achieve greater traffic control</h3>
+                        </div>
+</div>

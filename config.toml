@@ -76,8 +76,8 @@ pluralizelisttitles = false
     parent     = "section.more"
 
 [[menu.main]]
-    name       = "Operateur telecom"
-    url        = "/more/operateur-telecom/"
+    name       = "Network Peering"
+    url        = "/more/Network-Peering/"
     weight     = 8
     parent     = "section.more"
 
@@ -100,7 +100,7 @@ pluralizelisttitles = false
     parent     = "section.more"
 
 [[menu.main]]
-    name       = "Site web à fort traffic"
+    name       = "High traffic websites"
     url        = "/more/traffic"
     weight     = 6
     parent     = "section.more"

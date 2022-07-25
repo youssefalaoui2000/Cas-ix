@@ -23,23 +23,52 @@ The Internet Peering service is used by Internet Service Providers (ISPs), carri
 
 </div>
 
-<div class="div3">
 
 # Benefits of Internet Peering
 
+<div class="float-container" >
+                        <div class="float-child">
+                                <div class="icon">
+                                    <img src="/services/images/benefitspeering10.png" width="130%" height="110%">
+                                </div>
+                            <h3>Increased network redundancy</h3>
+                            <p>Traffic can be sent through many different routes</p>
+                        </div>
+                        <div class="float-child">
+                                <div class="icon">
+                                    <img src="/services/images/benefitspeering11.png" width="90%" height="90%">
+                                </div>
+                            <h3>High quality platform</h3>
+                            <p>Our innovative platform adheres to the highest technical standards</p>
+                        </div>
+                        <div class="float-child">
+                                <div class="icon">
+                                    <img src="/services/images/benefitspeering14.png" width="100%" height="50%">
+                                </div>
+                            <h3>Reduced latency</h3>
+                            <p>Traffic takes the fastest routes</p>
+                        </div>
+                        <div class="float-child">
+                                <div class="icon">
+                                    <img src="/services/images/benefitspeering15.png" width="85%" height="85%">
+                                </div>
+                            <h3>24/7 first-line technical support</h3>
+                            <p>Our NOC actively monitors the AMS-IX infrastructure 24x7</p>
+                        </div>
+                        <div class="float-child">
+                                <div class="icon">
+                                    <img src="/services/images/benefitspeering13.png" width="85%" height="85%">
+                                </div>
+                            <h3>Reduced connectivity costs</h3>
+                            <p>Direct exchange of traffic with multiple networks through one single connection</p>
+                        </div>
+                        <div class="float-child">
+                                <div class="icon">
+                                    <img src="/services/images/benefitspeering12.png" width="90%" height="70%">
+                                </div>
+                            <h3>Live monitoring</h3>
+                            <p>Monitor traffic live via our online customer portal</p>
+                        </div>
+</div>          
+       
 
-
-![image](/services/images/benefitscasix2.png)    
-![image](/services/images/benefitscasix2.png)        
-
-</div>
-
-<!--<div class="div4" >
-
-<h2 style="color:#0d67b5"><strong>CONTACT US</strong></h2>
-<h2 style="color:#0d67b5"><strong>FOR MORE INFORMATION</strong></h2>
-
-<button  type="button"><a style="color:#0d67b5" href="/contact/">Contact page</a></button>
-
-
-</div>-->

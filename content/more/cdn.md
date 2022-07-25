@@ -15,10 +15,17 @@ Access latencies to cached resources are radically improved. This results in a s
 ## Benefits of Content Delivery network
 
 1. CDNs facilitate faster page loads.
+
 2. Users get improved streaming quality.
+
 3. CDNs helps to deliver better user experienceswhen downloading video and audio content.
+
 4. Internet speed improve.
+
 5. File mirroring protects data if natural disasters affect certain areas of the Internet.
+
 6. Optimize Live Delivery.
+
 7. Enable Linear Networks.
+
 8. Support Video on Demand.
