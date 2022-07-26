@@ -19,7 +19,7 @@ When you connect to our Internet Peering Virtual Local Area Network (VLAN), you 
 We host one of the largest public peering interconnection platforms where hundreds of parties exchange large amounts of IP traffic. Peering at our switching infrastructure network, operators can easily improve the performance of their internet network and achieve low-latency and cost-effective interconnection.  
 The Internet Peering service is used by Internet Service Providers (ISPs), carriers, content providers, enterprises and other parties that seek network optimisation.
 
-![peering2](/services/images/peering5.jpg)
+![peering2](/services/images/peering55.png)
 
 </div>
 

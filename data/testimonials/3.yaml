@@ -1,4 +1,5 @@
-text: "We believe if all the parties on the Internet join CAS-IX then the number of incidents on the global Internet will be diminished. As one of the players in the VOD market, we've joined IXP (CAS-IX ) and actively encourage others to do the same and make the Internet more stable."
-name: "VOD customer"
-position: ""
-avatar: "img/testimonials/customer.png"
+text: "All services Cloudflare is live at CAS-IX Internet Exchange Point (IXP) in Morocco!! 
+By having a presence inside of an IXP location, companies are able to shorten their path to the transit coming from other participating networks, thereby reducing latency, improving round-trip time, and potentially reducing costs."
+name: "Cloudflare"
+position: "Content delivery network company"
+avatar: "img/testimonials/cloudflare.png"  
